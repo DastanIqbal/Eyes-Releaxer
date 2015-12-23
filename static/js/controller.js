@@ -1,6 +1,7 @@
 /**
  * Created by IQBAL-MEBELKART on 12/20/2015.
  */
+"use strict";
 var gui=require("nw.gui");
 var win=gui.Window.get();
 gui.Screen.Init();
