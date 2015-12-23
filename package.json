@@ -9,10 +9,20 @@
   "author": "dastan iqbal",
   "license": "ISC",
   "window":{
+    "frame":false,
     "toolbar":false,
     "title":"Eyes Relax",
-    "width":300,
-    "height":300,
-    "position":"mouse"
-  }
+    "width":250,
+    "height":130,
+    "icon":"res/logo.png",
+    "always-on-top":true,
+    "visible-on-all-workspaces":true,
+    "resizable":false,
+    "transparent":true
+  },
+  "maintainers":[ {
+    "name": "Dastan Iqbal",
+    "email": "ask2iqbal@gmail.com",
+    "web": "https://iaandroid.blogspot.in"
+  }]
 }

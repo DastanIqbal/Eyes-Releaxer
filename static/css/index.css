@@ -1,0 +1,8 @@
+html, body {height:100%;}
+html {display:table; width:100%;}
+body {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    background-color:rgba(6,40,67,0.5);
+}
