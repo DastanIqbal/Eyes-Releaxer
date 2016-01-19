@@ -22,13 +22,13 @@ $(document).ready(function () {
         win.setAlwaysOnTop(true);
         win.show();
         win.focus();
-        var i = 0;
+        var i = interval;
         $('#timer').text(i);
         $('#relaxmsg').html("Dastan, please relax your eyes just for "+interval+" seconds");
         var timer = setInterval(function () {
-            i = i + 1;
+            i = i - 1;
             $('#timer').text(i);
-            if (i === interval) {
+            if (i === 0) {
                 clearInterval(timer);
                 $('#timer').html("Dastan");
                 $('#relaxmsg').html("Thanks to take a break :) <br/>  Now, How are you feeling?");
